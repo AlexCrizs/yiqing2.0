@@ -71,7 +71,7 @@ public class BarChart2 {
 		JFrame frame = new JFrame("当天各个学院有疫情疑似症状的人数统计");
 		frame.setLayout(new GridLayout(2, 2, 20, 20));
 		frame.add(new BarChart2().getChartPanel()); // 添加柱形图
-		frame.setBounds(100, 100, 900, 600);	
+		frame.setBounds(100, 100, 900, 500);	
 		Color color=new Color(10,50,100);
 		frame.getContentPane().setBackground(color);
 		frame.setVisible(true);
